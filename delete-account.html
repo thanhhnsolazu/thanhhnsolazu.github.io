@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - thanhhnsolazu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .content-section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .content-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .content-section h3 {
+            color: #34495e;
+            margin: 20px 0 15px 0;
+            font-size: 1.3rem;
+        }
+        
+        .content-section p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        
+        .content-section ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        .content-section li {
+            margin-bottom: 8px;
+        }
+        
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .contact-info h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .contact-method {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+        }
+        
+        .contact-method i {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            width: 30px;
+            text-align: center;
+        }
+        
+        .contact-method a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .contact-method a:hover {
+            text-decoration: underline;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .warning-box h4 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        
+        .warning-box p {
+            color: #856404;
+            margin-bottom: 0;
+        }
+        
+        .process-steps {
+            counter-reset: step-counter;
+        }
+        
+        .process-step {
+            display: flex;
+            margin: 20px 0;
+            align-items: flex-start;
+        }
+        
+        .step-number {
+            background: #3498db;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex: 1;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content-section {
+                padding: 20px;
+            }
+            
+            .contact-method {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .contact-method i {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Delete Account & Data</h1>
+            <p>Guide to contact us for deleting your personal data</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Your Right to Delete Data</h2>
+            <p>Under data protection regulations, you have the right to request the deletion of all personal data that we have collected and stored. We are committed to respecting this right and will process your request quickly and securely.</p>
+            
+            <div class="warning-box">
+                <h4>⚠️ Important Notice</h4>
+                <p>Data deletion is <strong>irreversible</strong>. After deletion, all personal information, activity history, and data related to your account will be permanently removed from our systems.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Contact Information</h2>
+            <p>To request data deletion, please contact the developer directly through one of the following methods:</p>
+            
+            <div class="contact-info">
+                <h3>📧 Contact via Email</h3>
+                <div class="contact-method">
+                    <i>📧</i>
+                    <a href="mailto:thanhhnsolazu@gmail.com">thanhhn@solazu.com</a>
+                </div>
+                
+                <h3>🌐 Contact via GitHub</h3>
+                <div class="contact-method">
+                    <i>🐙</i>
+                    <a href="https://github.com/thanhhnsolazu" target="_blank">github.com/thanhhnsolazu</a>
+                </div>
+                
+                <h3>📱 Contact via Website</h3>
+                <div class="contact-method">
+                    <i>🌍</i>
+                    <a href="https://thanhhnsolazu.github.io/" target="_blank">thanhhnsolazu.github.io</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Request Processing Procedure</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Submit Request</h3>
+                        <p>Send an email or contact via GitHub with the subject "Personal Data Deletion Request" along with your identity verification information.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Identity Verification</h3>
+                        <p>We will verify your identity to ensure the request comes from the actual data owner. You may need to provide verification information such as registered email, full name, or other details.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Process Request</h3>
+                        <p>After successful verification, we will proceed to delete all your personal data from our systems within 30 business days.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Confirmation of Completion</h3>
+                        <p>We will send an email confirming that the data deletion has been completed and provide a detailed report of the data that has been deleted.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Required Information</h2>
+            <p>To expedite the processing, please provide the following information in your request:</p>
+            <ul>
+                <li><strong>Full name</strong></li>
+                <li><strong>Registered account email</strong></li>
+                <li><strong>Reason for data deletion request</strong> (optional)</li>
+                <li><strong>Additional information</strong> for identity verification (if needed)</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Processing Time</h2>
+            <p>We commit to processing your data deletion request as quickly as possible:</p>
+            <ul>
+                <li><strong>Initial response:</strong> Within 3-5 business days</li>
+                <li><strong>Identity verification:</strong> 1-2 business days</li>
+                <li><strong>Complete data deletion:</strong> Maximum 30 business days</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Data That Will Be Deleted</h2>
+            <p>When your data deletion request is approved, we will delete all:</p>
+            <ul>
+                <li>Personal information (name, email, phone number)</li>
+                <li>Account data and login information</li>
+                <li>Activity history and service usage</li>
+                <li>Analytics and personal statistics data</li>
+                <li>Cookies and related tracking data</li>
+                <li>Information from third-party social media services</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 thanhhnsolazu. All rights reserved.</p>
+            <p>This page was last updated: July 2025</p>
+        </div>
+    </div>
+</body>
+</html>
